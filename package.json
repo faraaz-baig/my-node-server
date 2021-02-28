@@ -7,9 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faraaz-baig/my-node-server.git"
+  },
   "author": "Faraaz Baig",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "lodash": "^4.17.15"
   }
 }
